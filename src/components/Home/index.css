@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projects-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #f1f5f9;
+}
+
+.dropdown-input {
+  width: 250px;
+  padding: 8px;
+  border: solid 1px #cbd5e1;
+  border-radius: 5px;
+  box-shadow: 0px 1px 8px #e2e8f0;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Consolas';
+}
+
+.option-name {
+  font-family: 'Consolas';
+}
+
+.projects-container {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 20px;
+}
